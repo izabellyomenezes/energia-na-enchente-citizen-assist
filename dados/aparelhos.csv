@@ -1,0 +1,7 @@
+aparelho,potencia_w,horas_por_dia,quantidade,essencial,fonte,tipo_dado
+concentrador de oxigênio,320,24,1,sim,manual de concentrador doméstico de 5 L/min (faixa típica 300-350 W),estimado
+geladeira,39,24,1,sim,selo Procel/Inmetro (~28 kWh/mês ÷ 30 dias ÷ 24 h),estimado
+lâmpada LED,9,5,4,sim,embalagem de lâmpada LED comum (Inmetro),estimado
+carregador de celular,10,2,3,sim,etiqueta de carregador comum,estimado
+TV,50,4,1,nao,etiqueta Inmetro de TV LED 32 polegadas,estimado
+chuveiro elétrico,5500,0.5,1,nao,etiqueta de chuveiro elétrico 220 V (Inmetro),estimado

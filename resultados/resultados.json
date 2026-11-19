@@ -1,0 +1,168 @@
+{
+  "dias_sem_luz": 7,
+  "consumo": {
+    "total_kwh_dia": 11.81,
+    "essencial_kwh_dia": 8.86,
+    "economia_porcento": 25.0,
+    "aparelhos": [
+      {
+        "aparelho": "concentrador de oxigênio",
+        "potencia_w": 320.0,
+        "horas_por_dia": 24.0,
+        "quantidade": 1,
+        "kwh_dia": 7.68,
+        "essencial": "sim",
+        "tipo_dado": "estimado"
+      },
+      {
+        "aparelho": "geladeira",
+        "potencia_w": 39.0,
+        "horas_por_dia": 24.0,
+        "quantidade": 1,
+        "kwh_dia": 0.936,
+        "essencial": "sim",
+        "tipo_dado": "estimado"
+      },
+      {
+        "aparelho": "lâmpada LED",
+        "potencia_w": 9.0,
+        "horas_por_dia": 5.0,
+        "quantidade": 4,
+        "kwh_dia": 0.18,
+        "essencial": "sim",
+        "tipo_dado": "estimado"
+      },
+      {
+        "aparelho": "carregador de celular",
+        "potencia_w": 10.0,
+        "horas_por_dia": 2.0,
+        "quantidade": 3,
+        "kwh_dia": 0.06,
+        "essencial": "sim",
+        "tipo_dado": "estimado"
+      },
+      {
+        "aparelho": "TV",
+        "potencia_w": 50.0,
+        "horas_por_dia": 4.0,
+        "quantidade": 1,
+        "kwh_dia": 0.2,
+        "essencial": "nao",
+        "tipo_dado": "estimado"
+      },
+      {
+        "aparelho": "chuveiro elétrico",
+        "potencia_w": 5500.0,
+        "horas_por_dia": 0.5,
+        "quantidade": 1,
+        "kwh_dia": 2.75,
+        "essencial": "nao",
+        "tipo_dado": "estimado"
+      }
+    ]
+  },
+  "demanda": {
+    "com_chuveiro_kw": 5.97,
+    "sem_chuveiro_kw": 0.47,
+    "potencia_gerador_kw": 2.5
+  },
+  "inmet": {
+    "hsp_media_ano": 4.07,
+    "hsp_media_maio": 1.94,
+    "diferenca_maio_porcento": -52.4
+  },
+  "gerador": {
+    "equacao_a": 0.464,
+    "equacao_b": 0.225,
+    "r2": 0.9993,
+    "carga_media_kw": 0.369,
+    "consumo_l_h": 0.396,
+    "litros_7_dias": 66.6,
+    "custo_7_dias": 419.36,
+    "co2_kg_7_dias": 107.8,
+    "investimento": 3000.0,
+    "atendida_porcento": 100
+  },
+  "solar": {
+    "kwp_instalado": 3.3,
+    "numero_paineis": 6,
+    "bateria_kwh": 9.84,
+    "investimento": 42402.0,
+    "atendida_porcento": 88.3,
+    "energia_faltou_kwh": 7.27,
+    "simulacao": [
+      {
+        "dia": "2024-05-04",
+        "hsp": 1.42,
+        "geracao_kwh": 3.52,
+        "consumo_kwh": 8.86,
+        "bateria_fim_do_dia_kwh": 3.52,
+        "faltou_kwh": 0.0
+      },
+      {
+        "dia": "2024-05-05",
+        "hsp": 2.88,
+        "geracao_kwh": 7.13,
+        "consumo_kwh": 8.86,
+        "bateria_fim_do_dia_kwh": 1.79,
+        "faltou_kwh": 0.0
+      },
+      {
+        "dia": "2024-05-06",
+        "hsp": 4.02,
+        "geracao_kwh": 9.95,
+        "consumo_kwh": 8.86,
+        "bateria_fim_do_dia_kwh": 2.88,
+        "faltou_kwh": 0.0
+      },
+      {
+        "dia": "2024-05-07",
+        "hsp": 3.89,
+        "geracao_kwh": 9.63,
+        "consumo_kwh": 8.86,
+        "bateria_fim_do_dia_kwh": 3.66,
+        "faltou_kwh": 0.0
+      },
+      {
+        "dia": "2024-05-08",
+        "hsp": 2.29,
+        "geracao_kwh": 5.66,
+        "consumo_kwh": 8.86,
+        "bateria_fim_do_dia_kwh": 0.46,
+        "faltou_kwh": 0.0
+      },
+      {
+        "dia": "2024-05-09",
+        "hsp": 3.68,
+        "geracao_kwh": 9.1,
+        "consumo_kwh": 8.86,
+        "bateria_fim_do_dia_kwh": 0.7,
+        "faltou_kwh": 0.0
+      },
+      {
+        "dia": "2024-05-10",
+        "hsp": 0.36,
+        "geracao_kwh": 0.88,
+        "consumo_kwh": 8.86,
+        "bateria_fim_do_dia_kwh": 0.0,
+        "faltou_kwh": 7.27
+      }
+    ],
+    "economia_anual": 3494.46,
+    "anos_para_se_pagar": 12.1,
+    "pior_semana_inicio": "2024-04-27",
+    "pior_semana_porcento": 34.4,
+    "melhor_semana_porcento": 90.4,
+    "media_semanas_porcento": 65.5,
+    "energia_faltou_pior": 40.67,
+    "litros_hibrido_pior": 43.7
+  },
+  "recomendacao": "Solar + bateria atendeu 88% da necessidade na semana de 04/05, mas, dependendo da semana, o solar atendeu de 34% a 90% (média de 66%), porque houve vários dias seguidos de pouco sol. O ideal é um sistema HÍBRIDO: solar + bateria e um gerador de reserva (sempre fora de casa) para os dias de pouco sol. Na semana de 04/05 o gerador de reserva cobriria 7,3 kWh (cerca de 7,8 L de gasolina); na pior semana (27/04) cobriria 40,7 kWh (cerca de 43,7 L), contra 66,6 L usando só o gerador. Como a pessoa depende de oxigênio, o gerador de reserva e o cilindro de oxigênio são obrigatórios mesmo com o solar. Se não houver dinheiro para o solar, o gerador sozinho atende, desde que haja gasolina guardada com segurança.",
+  "premissas": {
+    "preco_gasolina": 6.3,
+    "co2_por_litro": 1.62,
+    "tarifa_kwh": 0.95,
+    "preco_solar_por_w": 4.5,
+    "preco_bateria_kwh": 2800.0
+  }
+}
