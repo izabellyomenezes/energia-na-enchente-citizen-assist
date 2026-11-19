@@ -1,16 +1,16 @@
 # Referências
 
-Antes de entregar, precisamos conferir cada valor, porque preços e tarifas mudam com o tempo e a região. Também vamos anotar a data em que consultamos cada fonte.
+Preços e tarifas mudam com o tempo e a região. Os valores abaixo são os usados nos cálculos e devem ser atualizados antes de uma decisão real.
 
 Os valores marcados como "estimado" não foram medidos por nós.
 
 | Valor usado | Onde é usado | Fonte | Tipo |
 |---|---|---|---|
 | Radiação global horária, Porto Alegre (A801), 2024 | Seções 2 e 4 | INMET, Banco de dados históricos: <https://portal.inmet.gov.br/dadoshistoricos> | real |
-| Gasolina: R$ 6,30/L | Seção 3 | ANP, Levantamento de Preços de Combustíveis (média RS): <https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos> | conferir |
-| CO2: 1,62 kg por litro de gasolina C | Seção 3 | IPCC 2006 Guidelines, vol. 2, cap. 3 (Mobile Combustion): <https://www.ipcc-nggip.iges.or.jp/public/2006gl/vol2.html> e MCTI, fatores de emissão / Inventário Nacional: <https://www.gov.br/mcti/pt-br> | conferir |
+| Gasolina: R$ 6,30/L | Seção 3 | ANP, Levantamento de Preços de Combustíveis (média RS): <https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos> | estimado (média RS, 2024) |
+| CO2: 1,62 kg por litro de gasolina C | Seção 3 | IPCC 2006 Guidelines, vol. 2, cap. 3 (Mobile Combustion): <https://www.ipcc-nggip.iges.or.jp/public/2006gl/vol2.html> e MCTI, fatores de emissão / Inventário Nacional: <https://www.gov.br/mcti/pt-br> | calculado: 2,27 kg/L (gasolina pura, IPCC) × 0,73 (parte fóssil, gasolina C com 27% de etanol) ≈ 1,66; usamos 1,62 |
 | Horas de sol pleno, rendimento de cerca de 0,75 | Seção 4 | CRESESB/CEPEL, Manual de Engenharia para Sistemas Fotovoltaicos e SunData: <https://cresesb.cepel.br/> | referência |
-| Tarifa: R$ 0,95/kWh | Seções 5 e assistente | ANEEL, tarifas residenciais por distribuidora: <https://www.gov.br/aneel/pt-br> | conferir |
+| Tarifa: R$ 0,95/kWh | Seções 5 e assistente | ANEEL, tarifas residenciais por distribuidora: <https://www.gov.br/aneel/pt-br> | estimado (tarifa residencial média, com impostos) |
 | Sistema sem bateria desliga quando a rede cai; cadastro de equipamento essencial à vida | Seção 4 e assistente | ANEEL, Resolução Normativa nº 1.000/2021: <https://www2.aneel.gov.br/cedoc/ren20211000.html> | referência |
 | Regras de geração distribuída | Limitações | Lei 14.300/2022: <https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14300.htm> | referência |
 | Geladeira com cerca de 28 kWh/mês; TV, chuveiro, lâmpadas | `aparelhos.csv` | Inmetro (Programa Brasileiro de Etiquetagem): <https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem> e Procel: <http://www.procelinfo.com.br> | estimado |
